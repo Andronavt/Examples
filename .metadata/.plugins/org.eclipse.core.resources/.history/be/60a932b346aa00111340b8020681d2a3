@@ -1,0 +1,7 @@
+
+class MyClass implements B{
+	public void meth1(){
+		System.out.println("implements meth1()");
+	}
+
+}
