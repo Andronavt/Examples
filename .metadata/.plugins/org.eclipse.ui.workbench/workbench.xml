@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<workbench progressCount="20" version="2.0">
+<workbench progressCount="19" version="2.0">
 <workbenchAdvisor/>
 <window height="768" maximized="true" width="1024" x="65" y="24">
 <fastViewData fastViewLocation="1024">
@@ -33,22 +33,17 @@
 <presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
 <part id="0"/>
 <part id="1"/>
-<part id="2"/>
 </presentation>
 </folder>
 </info>
 </editorArea>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="SharedConstants.java" partName="SharedConstants.java" path="/home/andrew/Examples/Variables in interfaces/src/SharedConstants.java" title="SharedConstants.java" tooltip="Variables in interfaces/src/SharedConstants.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Variables in interfaces/src/SharedConstants.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="106" selectionTopPixel="0"/>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="MyException.java" partName="MyException.java" path="/home/andrew/Examples/Create your own subclasses of Exception/src/MyException.java" title="MyException.java" tooltip="Create your own subclasses of Exception/src/MyException.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Create your own subclasses of Exception/src/MyException.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="160" selectionTopPixel="0"/>
 </editor>
-<editor activePart="true" focus="true" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Question.java" partName="Question.java" path="/home/andrew/Examples/Variables in interfaces/src/Question.java" title="Question.java" tooltip="Variables in interfaces/src/Question.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Variables in interfaces/src/Question.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="313" selectionTopPixel="0"/>
-</editor>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="AslMe.java" partName="AslMe.java" path="/home/andrew/Examples/Variables in interfaces/src/AslMe.java" title="AslMe.java" tooltip="Variables in interfaces/src/AslMe.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Variables in interfaces/src/AslMe.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="568" selectionTopPixel="0"/>
+<editor activePart="true" focus="true" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ExceptionDemo.java" partName="ExceptionDemo.java" path="/home/andrew/Examples/Create your own subclasses of Exception/src/ExceptionDemo.java" title="ExceptionDemo.java" tooltip="Create your own subclasses of Exception/src/ExceptionDemo.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Create your own subclasses of Exception/src/ExceptionDemo.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="344" selectionTopPixel="0"/>
 </editor>
 </editors>
 <views>
@@ -56,7 +51,6 @@
 <viewState PRIMARY_SORT_FIELD="org.eclipse.ui.ide.severityAndDescriptionField" categoryGroup="org.eclipse.ui.ide.severity" markerContentGenerator="org.eclipse.ui.ide.problemsGenerator" partName="Problems">
 <expanded>
 <category IMemento.internal.id="Warnings (5 items)"/>
-<category IMemento.internal.id="Warnings"/>
 <category IMemento.internal.id="Errors"/>
 </expanded>
 <columnWidths org.eclipse.ui.ide.locationField="105" org.eclipse.ui.ide.markerType="283" org.eclipse.ui.ide.pathField="140" org.eclipse.ui.ide.resourceField="105" org.eclipse.ui.ide.severityAndDescriptionField="350"/>
@@ -287,165 +281,162 @@
 <workingSets/>
 <navigationHistory>
 <editors>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Application interfaces/src/IntStack.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Application interfaces/src/FixedStack.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Application interfaces/src/IFTest.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Application interfaces/src/DynStack.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Application interfaces/src/IFTest2.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Application interfaces/src/IFTest3.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Variables in interfaces/src/SharedConstants.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Variables in interfaces/src/Question.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Variables in interfaces/src/AslMe.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Nested operator try/src/MethNestTry.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Operator throw/src/ThrowDemo.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Methods with a keyword throw/src/ThrowsDemo.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/BlockFinally/src/FinallyDemo.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Create your own subclasses of Exception/src/MyException.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Create your own subclasses of Exception/src/ExceptionDemo.java"/>
 </editors>
-<item historyLabel="FixedStack.java" index="1">
-<position info="not_deleted" x="384" y="0"/>
+<item historyLabel="MethNestTry.java" index="0">
+<position info="not_deleted" x="123" y="0"/>
 </item>
-<item historyLabel="FixedStack.java" index="1">
-<position info="not_deleted" x="381" y="0"/>
+<item historyLabel="MethNestTry.java" index="0">
+<position info="not_deleted" x="274" y="0"/>
 </item>
-<item historyLabel="IntStack.java" index="0">
-<position info="not_deleted" x="43" y="0"/>
+<item historyLabel="MethNestTry.java" index="0">
+<position info="not_deleted" x="442" y="0"/>
 </item>
-<item historyLabel="FixedStack.java" index="1">
+<item historyLabel="MethNestTry.java" index="0">
+<position info="not_deleted" x="350" y="0"/>
+</item>
+<item historyLabel="MethNestTry.java" index="0">
+<position info="not_deleted" x="367" y="0"/>
+</item>
+<item historyLabel="MethNestTry.java" index="0">
+<position info="not_deleted" x="439" y="0"/>
+</item>
+<item historyLabel="MethNestTry.java" index="0">
+<position info="not_deleted" x="433" y="0"/>
+</item>
+<item historyLabel="MethNestTry.java" index="0">
+<position info="not_deleted" x="435" y="0"/>
+</item>
+<item historyLabel="ThrowDemo.java" index="1">
 <position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="FixedStack.java" index="1">
-<position info="not_deleted" x="351" y="0"/>
+<item historyLabel="ThrowDemo.java" index="1">
+<position info="not_deleted" x="338" y="0"/>
 </item>
-<item historyLabel="IFTest.java" index="2">
+<item historyLabel="ThrowDemo.java" index="1">
+<position info="not_deleted" x="91" y="0"/>
+</item>
+<item historyLabel="ThrowDemo.java" index="1">
+<position info="not_deleted" x="188" y="0"/>
+</item>
+<item historyLabel="ThrowDemo.java" index="1">
+<position info="not_deleted" x="230" y="0"/>
+</item>
+<item historyLabel="ThrowDemo.java" index="1">
+<position info="not_deleted" x="338" y="0"/>
+</item>
+<item historyLabel="ThrowDemo.java" index="1">
+<position info="not_deleted" x="254" y="0"/>
+</item>
+<item historyLabel="ThrowDemo.java" index="1">
+<position info="not_deleted" x="335" y="0"/>
+</item>
+<item historyLabel="ThrowDemo.java" index="1">
+<position info="not_deleted" x="331" y="0"/>
+</item>
+<item historyLabel="ThrowsDemo.java" index="2">
 <position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="IFTest.java" index="2">
-<position info="not_deleted" x="473" y="0"/>
+<item historyLabel="ThrowsDemo.java" index="2">
+<position info="not_deleted" x="303" y="0"/>
 </item>
-<item historyLabel="IFTest.java" index="2">
-<position info="not_deleted" x="208" y="0"/>
+<item historyLabel="ThrowsDemo.java" index="2">
+<position info="not_deleted" x="156" y="0"/>
 </item>
-<item historyLabel="IFTest.java" index="2">
-<position info="not_deleted" x="249" y="0"/>
+<item historyLabel="ThrowsDemo.java" index="2">
+<position info="not_deleted" x="115" y="41"/>
 </item>
-<item historyLabel="IFTest.java" index="2">
-<position info="not_deleted" x="473" y="0"/>
+<item historyLabel="ThrowsDemo.java" index="2">
+<position info="not_deleted" x="222" y="0"/>
 </item>
-<item historyLabel="IFTest.java" index="2">
-<position info="not_deleted" x="471" y="0"/>
+<item historyLabel="ThrowsDemo.java" index="2">
+<position info="not_deleted" x="307" y="0"/>
 </item>
-<item historyLabel="IntStack.java" index="0">
-<position info="not_deleted" x="43" y="0"/>
-</item>
-<item historyLabel="FixedStack.java" index="1">
-<position info="not_deleted" x="351" y="0"/>
-</item>
-<item historyLabel="IFTest.java" index="2">
-<position info="not_deleted" x="471" y="0"/>
-</item>
-<item historyLabel="DynStack.java" index="3">
+<item historyLabel="FinallyDemo.java" index="3">
 <position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="DynStack.java" index="3">
-<position info="not_deleted" x="473" y="0"/>
+<item historyLabel="FinallyDemo.java" index="3">
+<position info="not_deleted" x="604" y="0"/>
 </item>
-<item historyLabel="DynStack.java" index="3">
-<position info="not_deleted" x="471" y="0"/>
+<item historyLabel="FinallyDemo.java" index="3">
+<position info="not_deleted" x="123" y="0"/>
 </item>
-<item historyLabel="DynStack.java" index="3">
-<position info="not_deleted" x="346" y="0"/>
+<item historyLabel="FinallyDemo.java" index="3">
+<position info="not_deleted" x="179" y="0"/>
 </item>
-<item historyLabel="DynStack.java" index="3">
-<position info="not_deleted" x="314" y="0"/>
+<item historyLabel="FinallyDemo.java" index="3">
+<position info="not_deleted" x="604" y="0"/>
 </item>
-<item historyLabel="DynStack.java" index="3">
-<position info="not_deleted" x="346" y="0"/>
+<item historyLabel="FinallyDemo.java" index="3">
+<position info="not_deleted" x="261" y="0"/>
 </item>
-<item historyLabel="DynStack.java" index="3">
-<position info="not_deleted" x="471" y="0"/>
+<item historyLabel="FinallyDemo.java" index="3">
+<position info="not_deleted" x="317" y="0"/>
 </item>
-<item historyLabel="DynStack.java" index="3">
-<position info="not_deleted" x="471" y="0"/>
+<item historyLabel="FinallyDemo.java" index="3">
+<position info="not_deleted" x="604" y="0"/>
 </item>
-<item historyLabel="IFTest2.java" index="4">
+<item historyLabel="FinallyDemo.java" index="3">
+<position info="not_deleted" x="388" y="0"/>
+</item>
+<item historyLabel="FinallyDemo.java" index="3">
+<position info="not_deleted" x="444" y="0"/>
+</item>
+<item historyLabel="FinallyDemo.java" index="3">
+<position info="not_deleted" x="511" y="0"/>
+</item>
+<item historyLabel="FinallyDemo.java" index="3">
+<position info="not_deleted" x="601" y="0"/>
+</item>
+<item historyLabel="FinallyDemo.java" index="3">
+<position info="not_deleted" x="575" y="0"/>
+</item>
+<item historyLabel="FinallyDemo.java" index="3">
+<position info="not_deleted" x="170" y="0"/>
+</item>
+<item historyLabel="MyException.java" index="4">
 <position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="IFTest2.java" index="4">
-<position info="not_deleted" x="440" y="0"/>
+<item historyLabel="MyException.java" index="4">
+<position info="not_deleted" x="163" y="0"/>
 </item>
-<item historyLabel="IFTest2.java" index="4">
-<position info="not_deleted" x="216" y="0"/>
+<item historyLabel="MyException.java" index="4">
+<position info="not_deleted" x="160" y="0"/>
 </item>
-<item historyLabel="IFTest2.java" index="4">
-<position info="not_deleted" x="440" y="0"/>
-</item>
-<item historyLabel="IFTest3.java" index="5">
+<item historyLabel="ExceptionDemo.java" index="5">
 <position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="IFTest3.java" index="5">
-<position info="not_deleted" x="535" y="0"/>
+<item historyLabel="ExceptionDemo.java" index="5">
+<position info="not_deleted" x="343" y="0"/>
 </item>
-<item historyLabel="IFTest3.java" index="5">
-<position info="not_deleted" x="199" y="0"/>
+<item historyLabel="ExceptionDemo.java" index="5">
+<position info="not_deleted" x="193" y="0"/>
 </item>
-<item historyLabel="IFTest3.java" index="5">
-<position info="not_deleted" x="535" y="0"/>
+<item historyLabel="ExceptionDemo.java" index="5">
+<position info="not_deleted" x="275" y="0"/>
 </item>
-<item historyLabel="IFTest3.java" index="5">
-<position info="not_deleted" x="256" y="0"/>
+<item historyLabel="ExceptionDemo.java" index="5">
+<position info="not_deleted" x="340" y="0"/>
 </item>
-<item historyLabel="IFTest3.java" index="5">
-<position info="not_deleted" x="532" y="0"/>
+<item historyLabel="ExceptionDemo.java" index="5">
+<position info="not_deleted" x="336" y="0"/>
 </item>
-<item historyLabel="DynStack.java" index="3">
-<position info="not_deleted" x="471" y="0"/>
+<item historyLabel="MyException.java" index="4">
+<position info="not_deleted" x="160" y="0"/>
 </item>
-<item historyLabel="IFTest2.java" index="4">
-<position info="not_deleted" x="440" y="0"/>
+<item historyLabel="ExceptionDemo.java" index="5">
+<position info="not_deleted" x="344" y="0"/>
 </item>
-<item historyLabel="IFTest3.java" index="5">
-<position info="not_deleted" x="532" y="0"/>
+<item historyLabel="MyException.java" index="4">
+<position info="not_deleted" x="160" y="0"/>
 </item>
-<item historyLabel="SharedConstants.java" index="6">
-<position info="not_deleted" x="106" y="0"/>
-</item>
-<item historyLabel="Question.java" index="7">
-<position info="not_deleted" x="26" y="0"/>
-</item>
-<item historyLabel="Question.java" index="7">
-<position info="not_deleted" x="309" y="0"/>
-</item>
-<item historyLabel="Question.java" index="7">
-<position info="not_deleted" x="309" y="0"/>
-</item>
-<item historyLabel="Question.java" index="7">
-<position info="not_deleted" x="306" y="0"/>
-</item>
-<item historyLabel="AslMe.java" index="8">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="AslMe.java" index="8">
-<position/>
-</item>
-<item historyLabel="AslMe.java" index="8">
-<position info="not_deleted" x="572" y="0"/>
-</item>
-<item historyLabel="AslMe.java" index="8">
-<position info="not_deleted" x="571" y="0"/>
-</item>
-<item historyLabel="AslMe.java" index="8">
-<position info="not_deleted" x="419" y="0"/>
-</item>
-<item historyLabel="AslMe.java" index="8">
-<position info="not_deleted" x="415" y="0"/>
-</item>
-<item historyLabel="AslMe.java" index="8">
-<position info="not_deleted" x="461" y="0"/>
-</item>
-<item historyLabel="AslMe.java" index="8">
-<position info="not_deleted" x="571" y="0"/>
-</item>
-<item historyLabel="AslMe.java" index="8">
-<position info="not_deleted" x="568" y="0"/>
-</item>
-<item active="true" historyLabel="Question.java" index="7">
-<position info="not_deleted" x="306" y="0"/>
+<item active="true" historyLabel="ExceptionDemo.java" index="5">
+<position info="not_deleted" x="344" y="0"/>
 </item>
 </navigationHistory>
 <input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
@@ -467,6 +458,36 @@
 </trimLayout>
 </window>
 <mruList>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ExceptionDemo.java" tooltip="Create your own subclasses of Exception/src/ExceptionDemo.java">
+<persistable path="/Create your own subclasses of Exception/src/ExceptionDemo.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="MyException.java" tooltip="Create your own subclasses of Exception/src/MyException.java">
+<persistable path="/Create your own subclasses of Exception/src/MyException.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="FinallyDemo.java" tooltip="BlockFinally/src/FinallyDemo.java">
+<persistable path="/BlockFinally/src/FinallyDemo.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ThrowsDemo.java" tooltip="Methods with a keyword throw/src/ThrowsDemo.java">
+<persistable path="/Methods with a keyword throw/src/ThrowsDemo.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ThrowDemo.java" tooltip="Operator throw/src/ThrowDemo.java">
+<persistable path="/Operator throw/src/ThrowDemo.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="MethNestTry.java" tooltip="Nested operator try/src/MethNestTry.java">
+<persistable path="/Nested operator try/src/MethNestTry.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="NestTry.java" tooltip="Nested operator try/src/NestTry.java">
+<persistable path="/Nested operator try/src/NestTry.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="MultiCatch.java" tooltip="Multiple operators catch/src/MultiCatch.java">
+<persistable path="/Multiple operators catch/src/MultiCatch.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="HandleError.java" tooltip="Use operators  try and catch/src/HandleError.java">
+<persistable path="/Use operators  try and catch/src/HandleError.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Exc2.java" tooltip="Use operators  try and catch/src/Exc2.java">
+<persistable path="/Use operators  try and catch/src/Exc2.java"/>
+</file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="AslMe.java" tooltip="Variables in interfaces/src/AslMe.java">
 <persistable path="/Variables in interfaces/src/AslMe.java"/>
 </file>
@@ -481,36 +502,6 @@
 </file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="IFTest2.java" tooltip="Application interfaces/src/IFTest2.java">
 <persistable path="/Application interfaces/src/IFTest2.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="DynStack.java" tooltip="Application interfaces/src/DynStack.java">
-<persistable path="/Application interfaces/src/DynStack.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="IFTest.java" tooltip="Application interfaces/src/IFTest.java">
-<persistable path="/Application interfaces/src/IFTest.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="FixedStack.java" tooltip="Application interfaces/src/FixedStack.java">
-<persistable path="/Application interfaces/src/FixedStack.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="IntStack.java" tooltip="Application interfaces/src/IntStack.java">
-<persistable path="/Application interfaces/src/IntStack.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="TestIface2.java" tooltip="Interface implementation/src/TestIface2.java">
-<persistable path="/Interface implementation/src/TestIface2.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="AnotherClient.java" tooltip="Interface implementation/src/AnotherClient.java">
-<persistable path="/Interface implementation/src/AnotherClient.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Client.java" tooltip="Interface implementation/src/Client.java">
-<persistable path="/Interface implementation/src/Client.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Callback.java" tooltip="Interface implementation/src/Callback.java">
-<persistable path="/Interface implementation/src/Callback.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="TestIface.java" tooltip="Interface implementation/src/TestIface.java">
-<persistable path="/Interface implementation/src/TestIface.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="TestBalance.java" tooltip="Package import/src/TestBalance.java">
-<persistable path="/Package import/src/TestBalance.java"/>
 </file>
 </mruList>
 </workbench>
