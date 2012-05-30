@@ -1,0 +1,8 @@
+
+class AnotherClient implements Callback{
+	public void callback(int p){
+		
+	}
+	
+
+}

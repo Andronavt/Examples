@@ -1,0 +1,10 @@
+import java.util.Random;
+
+
+class Question implements SharedConstants{
+	Random rand=new Random();
+	int ask(){
+		int prob=(int)(100*rand.nextDouble());
+	}
+
+}

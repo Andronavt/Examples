@@ -1,0 +1,11 @@
+
+class FixedStack implements IntStack{
+	private int stck[];
+	private int tos;
+	
+	FixedStack(int size){
+		stck=new int [size];
+		tos=-1;
+	}
+
+}

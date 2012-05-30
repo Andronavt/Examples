@@ -1,0 +1,11 @@
+
+class IFTest3 {
+	public static void main(String args[]){
+		IntStack mystack;
+		DynStack ds=new DynStack(5);
+		FixedStack fs=new FixedStack(8);
+		
+		
+	}
+
+}

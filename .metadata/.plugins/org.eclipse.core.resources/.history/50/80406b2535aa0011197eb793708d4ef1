@@ -1,0 +1,15 @@
+
+class TestIface {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		Callback c=new Callback();
+			c.callback(42);
+		
+	
+
+	}
+
+}

@@ -1,0 +1,8 @@
+
+class Client implements Callback{
+	
+	public void Callback(int p){
+		System.out.println("callback invoked with an argument "+p);
+	}
+
+}

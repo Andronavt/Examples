@@ -1,0 +1,8 @@
+
+class IFTest2 {
+	public static void main(String args[]){
+		DynStack mystack1=new DynStack(5);
+		DynStack mystack2=new DynStack(8);
+	}
+
+}
