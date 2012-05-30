@@ -1,0 +1,9 @@
+package p1;
+
+class Derived extends Protection{
+	Derived(){
+		
+	}
+	
+
+}

@@ -1,0 +1,11 @@
+package p1;
+
+class Derived extends Protection{
+	Derived(){
+		System.out.println("arbitrary constructor");
+		System.out.println("n= "+n);
+		
+	}
+	
+
+}

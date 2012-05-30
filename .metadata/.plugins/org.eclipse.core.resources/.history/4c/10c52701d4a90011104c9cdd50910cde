@@ -1,0 +1,9 @@
+package p2;
+
+class Protection2 extends p1.Protection{
+	Protection2(){
+		System.out.println("Any other designer of the package ");	
+	}
+	
+
+}
