@@ -1,0 +1,16 @@
+
+class MultiThreadDemo {
+	public static void main(String args[]){
+		new Thread("First");
+		new Thread("Second");
+		new Thread("Three");
+		
+		try{
+			Thread.sleep(10000);
+		}catch(InterruptedException e){
+			System.out.println("Interrupted main thread.");
+		}
+		System.out.println("End main thread.");
+	}
+
+}

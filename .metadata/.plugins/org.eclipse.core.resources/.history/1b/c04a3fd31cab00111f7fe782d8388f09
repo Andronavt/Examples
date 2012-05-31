@@ -1,0 +1,13 @@
+
+class DemoJoin {
+	public static void main(String args[]){
+		NewThread ob1=new NewThread("First");
+		NewThread ob2=new NewThread("Second");
+		NewThread ob3=new NewThread("Three");
+		
+		System.out.println("First thread completed: "+ob1.t.isAlive());
+		System.out.println("Second thread completed: "+ob2.t.isAlive());
+		System.out.println("Three thread completed: "+ob3.t.isAlive());
+	}
+
+}
