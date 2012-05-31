@@ -38,9 +38,6 @@
 <views>
 <view id="org.eclipse.ui.views.ProblemView" partName="Problems">
 <viewState PRIMARY_SORT_FIELD="org.eclipse.ui.ide.severityAndDescriptionField" categoryGroup="org.eclipse.ui.ide.severity" markerContentGenerator="org.eclipse.ui.ide.problemsGenerator" partName="Problems">
-<expanded>
-<category IMemento.internal.id="Warnings (11 items)"/>
-</expanded>
 <columnWidths org.eclipse.ui.ide.locationField="105" org.eclipse.ui.ide.markerType="283" org.eclipse.ui.ide.pathField="140" org.eclipse.ui.ide.resourceField="105" org.eclipse.ui.ide.severityAndDescriptionField="350"/>
 <visible IMemento.internal.id="org.eclipse.ui.ide.severityAndDescriptionField"/>
 <visible IMemento.internal.id="org.eclipse.ui.ide.resourceField"/>
@@ -287,6 +284,12 @@
 </trimLayout>
 </window>
 <mruList>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="HiLoPri.java" tooltip="Thread priorities/src/HiLoPri.java">
+<persistable path="/Thread priorities/src/HiLoPri.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Clicker.java" tooltip="Thread priorities/src/Clicker.java">
+<persistable path="/Thread priorities/src/Clicker.java"/>
+</file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="DemoJoin.java" tooltip="Use of methods isAlive() and join()/src/DemoJoin.java">
 <persistable path="/Use of methods isAlive() and join()/src/DemoJoin.java"/>
 </file>
@@ -325,12 +328,6 @@
 </file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ThrowsDemo.java" tooltip="Methods with a keyword throw/src/ThrowsDemo.java">
 <persistable path="/Methods with a keyword throw/src/ThrowsDemo.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ThrowDemo.java" tooltip="Operator throw/src/ThrowDemo.java">
-<persistable path="/Operator throw/src/ThrowDemo.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="MethNestTry.java" tooltip="Nested operator try/src/MethNestTry.java">
-<persistable path="/Nested operator try/src/MethNestTry.java"/>
 </file>
 </mruList>
 </workbench>
