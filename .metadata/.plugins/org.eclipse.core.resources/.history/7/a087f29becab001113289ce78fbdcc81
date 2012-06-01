@@ -1,0 +1,15 @@
+
+class NewThread implements Runnable{
+	String name;
+	Thread t;
+	boolean suspendFlag;
+	
+	NewThread(String threadname){
+		name=threadname;
+		t=new Thread(this,name);
+		System.out.println("New Thread: "+t);
+		suspendFlag=false;
+		t.start();
+	}
+
+}

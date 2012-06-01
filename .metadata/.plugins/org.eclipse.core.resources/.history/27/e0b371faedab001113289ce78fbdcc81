@@ -1,0 +1,9 @@
+
+class SuspendResume {
+	public static void main(String args[]){
+		NewThread ob1=new NewThread("First");
+		NewThread ob2=new NewThread("Second");
+		
+	}
+
+}

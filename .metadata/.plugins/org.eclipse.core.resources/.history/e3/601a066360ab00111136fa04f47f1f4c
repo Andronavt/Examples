@@ -1,0 +1,18 @@
+
+class Q {
+	int n;
+	boolean valueSet=false;
+	synchronized int get(){
+		if(!valueSet)
+				try{
+					wait();
+				}catch(InterruptedException e){
+					System.out.println("InterruptedException eject");
+				}
+		System.out.println("received: "+n);
+		valueSet=false;
+		notify();
+		return n;
+	}
+
+}
