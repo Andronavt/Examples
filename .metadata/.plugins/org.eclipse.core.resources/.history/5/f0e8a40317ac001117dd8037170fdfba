@@ -1,0 +1,22 @@
+
+class Instanceof {
+	public static void main(String atgs[]){
+		A a=new A();
+		B b=new B();
+		C c=new C();
+		D d=new D();
+		
+		if (a instanceof A)
+			System.out.println("a  copy class A");
+		if(b instanceof B)
+			System.out.println("b  copy class B");
+		if(c instanceof C)
+			System.out.println("c copy class C");
+		if(c instanceof A)
+			System.out.println("type c can lead to type A");
+		if(a instanceof C)
+			System.out.println("type a can lead to type C");
+		System.out.println();
+	}
+
+}
