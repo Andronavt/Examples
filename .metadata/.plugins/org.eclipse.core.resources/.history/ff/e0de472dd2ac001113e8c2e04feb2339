@@ -1,0 +1,14 @@
+
+class ConCat {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		String longStr="This is Sparta"+"try catch throws ";
+		System.out.println(longStr);
+		
+
+	}
+
+}

@@ -39,7 +39,6 @@
 <view id="org.eclipse.ui.views.ProblemView" partName="Problems">
 <viewState PRIMARY_SORT_FIELD="org.eclipse.ui.ide.severityAndDescriptionField" categoryGroup="org.eclipse.ui.ide.severity" markerContentGenerator="org.eclipse.ui.ide.problemsGenerator" partName="Problems">
 <expanded>
-<category IMemento.internal.id="Warnings (15 items)"/>
 <category IMemento.internal.id="Errors"/>
 </expanded>
 <columnWidths org.eclipse.ui.ide.locationField="105" org.eclipse.ui.ide.markerType="283" org.eclipse.ui.ide.pathField="140" org.eclipse.ui.ide.resourceField="105" org.eclipse.ui.ide.severityAndDescriptionField="350"/>
@@ -292,50 +291,50 @@
 </trimLayout>
 </window>
 <mruList>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="NativeDemo.java" tooltip="Native-methods/src/NativeDemo.java">
-<persistable path="/Native-methods/src/NativeDemo.java"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="replaceDemo.java" tooltip="Method replace()/src/replaceDemo.java">
+<persistable path="/Method replace()/src/replaceDemo.java"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Instanceof.java" tooltip="Use instanceof/src/Instanceof.java">
-<persistable path="/Use instanceof/src/Instanceof.java"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="deleteDemo.java" tooltip="Methods delete() and deleteCharAt()/src/deleteDemo.java">
+<persistable path="/Methods delete() and deleteCharAt()/src/deleteDemo.java"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="D.java" tooltip="Use instanceof/src/D.java">
-<persistable path="/Use instanceof/src/D.java"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ReverseDemo.java" tooltip="Method reverse()/src/ReverseDemo.java">
+<persistable path="/Method reverse()/src/ReverseDemo.java"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="C.java" tooltip="Use instanceof/src/C.java">
-<persistable path="/Use instanceof/src/C.java"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="insertDemo.java" tooltip="Method insert()/src/insertDemo.java">
+<persistable path="/Method insert()/src/insertDemo.java"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="B.java" tooltip="Use instanceof/src/B.java">
-<persistable path="/Use instanceof/src/B.java"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="appendDemo.java" tooltip="Method append()/src/appendDemo.java">
+<persistable path="/Method append()/src/appendDemo.java"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="A.java" tooltip="Use instanceof/src/A.java">
-<persistable path="/Use instanceof/src/A.java"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="setCharAtDemo.java" tooltip="Methods charAt() and setCharAt()/src/setCharAtDemo.java">
+<persistable path="/Methods charAt() and setCharAt()/src/setCharAtDemo.java"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="SimpleApplet.java" tooltip="Applet.Basic programming/src/SimpleApplet.java">
-<persistable path="/Applet.Basic programming/src/SimpleApplet.java"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="StringBufferDemo.java" tooltip="Methods length() and capacity()/src/StringBufferDemo.java">
+<persistable path="/Methods length() and capacity()/src/StringBufferDemo.java"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="CopyFile.java" tooltip="Read and Write files/src/CopyFile.java">
-<persistable path="/Read and Write files/src/CopyFile.java"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ChangeCase.java" tooltip="Changes the character in the string/src/ChangeCase.java">
+<persistable path="/Changes the character in the string/src/ChangeCase.java"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ShowFile.java" tooltip="Read and Write files/src/ShowFile.java">
-<persistable path="/Read and Write files/src/ShowFile.java"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="UseTrim.java" tooltip="Method trim()/src/UseTrim.java">
+<persistable path="/Method trim()/src/UseTrim.java"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="PrintWriterDemo.java" tooltip="Class PrintWriter/src/PrintWriterDemo.java">
-<persistable path="/Class PrintWriter/src/PrintWriterDemo.java"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="StringReplace.java" tooltip="Method substring()/src/StringReplace.java">
+<persistable path="/Method substring()/src/StringReplace.java"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="WriteDemo.java" tooltip="Reading  lines/src/WriteDemo.java">
-<persistable path="/Reading  lines/src/WriteDemo.java"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="indexDemo.java" tooltip="Search strings/src/indexDemo.java">
+<persistable path="/Search strings/src/indexDemo.java"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="TinyEdit.java" tooltip="Reading  lines/src/TinyEdit.java">
-<persistable path="/Reading  lines/src/TinyEdit.java"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="SortString.java" tooltip="Method compareTo()/src/SortString.java">
+<persistable path="/Method compareTo()/src/SortString.java"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="BRReaderLines.java" tooltip="Reading  lines/src/BRReaderLines.java">
-<persistable path="/Reading  lines/src/BRReaderLines.java"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="EqualsNotEqualTo.java" tooltip="Comparison equals() and operations ==/src/EqualsNotEqualTo.java">
+<persistable path="/Comparison equals() and operations ==/src/EqualsNotEqualTo.java"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="BRRead.java" tooltip="Reading symbols/src/BRRead.java">
-<persistable path="/Reading symbols/src/BRRead.java"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="equalsDemo.java" tooltip="Methods equals() and equalsIgnoreCase()/src/equalsDemo.java">
+<persistable path="/Methods equals() and equalsIgnoreCase()/src/equalsDemo.java"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="SuspendResume.java" tooltip="Pausing, resuming, and stopping the flow in Java 2/src/SuspendResume.java">
-<persistable path="/Pausing, resuming, and stopping the flow in Java 2/src/SuspendResume.java"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="getCharDemo.java" tooltip="Method getChars()/src/getCharDemo.java">
+<persistable path="/Method getChars()/src/getCharDemo.java"/>
 </file>
 </mruList>
 </workbench>
