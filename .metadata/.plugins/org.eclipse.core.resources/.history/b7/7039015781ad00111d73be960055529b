@@ -1,0 +1,11 @@
+import java.io.*;
+
+
+class ParseDemo {
+	public static void main(String args[]) throws IOException {
+		BufferdReader br=new BufferedReader(new InputStreamReader(System.in));
+		
+		
+	}
+
+}
