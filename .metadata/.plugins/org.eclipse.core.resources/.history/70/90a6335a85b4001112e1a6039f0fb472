@@ -1,0 +1,7 @@
+
+class ArrayListtoArray {
+	public static void mian(String args[]){
+		ArrayList a1=new  ArrayList();
+	}
+
+}

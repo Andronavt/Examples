@@ -1,0 +1,28 @@
+import java.util.ArrayList;
+import java.util.TreeSet;
+
+
+class TreeSetDemo {
+	public static void main(String args[]){
+        ArrayList a=new ArrayList();
+        a.add("s");
+        a.add("a");
+        a.add("w");
+        a.add("g");
+        a.add("z");
+        a.add("x");
+        TreeSet tr=new TreeSet(a);
+		
+		TreeSet ts=new TreeSet();
+		
+		ts.add("C");
+		ts.add("I");
+		ts.add("E");
+		ts.add("A");
+		
+		System.out.println(ts);
+		System.out.println(tr);
+ 		
+	}
+
+}
