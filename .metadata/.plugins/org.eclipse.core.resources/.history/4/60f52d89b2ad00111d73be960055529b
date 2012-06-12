@@ -1,0 +1,20 @@
+
+class MemoryDemo {
+	public static void main(String args[]){
+		Runtime r=new Runtime.getRuntime();
+		long mem1,mem2;
+		Integer someints[]=new Integer[1000];
+		
+		System.out.println("Full memory volume");
+		
+		mem1=r.freeMemory();
+		System.out.println("Begin free memory: "+mem1);
+		r.gc();
+		mem1=r.freeMemory();
+		System.out.println("Free memory after cash: "+mem1);
+		
+		
+		
+	}
+
+}

@@ -1,0 +1,21 @@
+
+class IsDemo {
+	public static void main(String args[]){
+		char a[]={'a','b','5','?','A',' '};
+		
+		for(int i=0;i<a.length;i++){
+			if(Character.isDigit(a[i]))
+			System.out.println(a[i]+" -number");
+			if(Character.isLetter(a[i]))
+			System.out.println(a[i]+" -letter");
+			if(Character.isWhitespace(a[i]))
+			System.out.println(a[i]+" - space character");
+			if(Character.isUpperCase(a[i]))
+			System.out.println(a[i]+" -upper reg");
+			if(Character.isLowerCase(a[i]))
+			System.out.println(a[i]+" -lower reg");
+			
+		}
+	}
+
+}

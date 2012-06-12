@@ -1,0 +1,12 @@
+
+class NewThread extends Thread{
+	boolean suspendFlag;
+	
+	NewThread(String threadname,ThreadGroup tgOb){
+		super(tgOb,threadname);
+		System.out.println("New Thread: "+this);
+		suspendFlag=false;
+		start();
+	}
+
+}
