@@ -1,0 +1,6 @@
+
+class STDemo {
+	static String in="title=Java: The Complete Reference;"+"author=Naughton and Shildt;"+"publisher=Osborne\McGraw-Hill;"+
+"copyright=1999";
+
+}

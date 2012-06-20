@@ -1,0 +1,8 @@
+
+class TwoObservers {
+	public static void main(String args[]){
+		BeingWatcher observed=new BeingWatcher();
+		
+	}
+
+}

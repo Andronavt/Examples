@@ -1,0 +1,9 @@
+import java.util.Observer;
+
+
+class Watcher implements Observer{
+	public void update(Observable obj,Object arg){
+		System.out.println("Call update(),count equally "+((Integer)arg).intValue());
+	}
+
+}

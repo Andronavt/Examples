@@ -1,0 +1,15 @@
+
+class GregorianCalendar {
+	public static void main(String[]args){
+		String months[]={
+				"Январь","Февраль", "Март", "Аперль", "Май", "Июнь", "Июль",
+				"Август","Сентябрь","Октябрь","Ноябрь","Декабрь"
+		};
+		int year;
+		
+		GregorianCalendar gcalendar=new GregorianCalendar();
+		
+		System.out.print("Date: ");
+	}
+
+}

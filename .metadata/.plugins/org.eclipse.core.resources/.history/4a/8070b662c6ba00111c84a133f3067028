@@ -1,0 +1,10 @@
+import java.util.Random;
+
+
+class RandDemo {
+	public static void main(String args[]){
+		Random r=new Random();
+		
+	}
+
+}
