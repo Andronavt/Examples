@@ -1,0 +1,12 @@
+import java.io.*;
+class FileOutputStreamDemo {
+	public static void main(String args[])throws Exception{
+		String source="This is big fail\n"
+				+"trolololo man\n"
+				+"save the world!";
+		byte buf[]=source.getBytes();
+		OutputStream fo=new FileOutputStream("file1.txt");
+		
+	}
+
+}

@@ -1,0 +1,12 @@
+import java.io.*;
+class FileInputStreamDemo {
+	public static void main(String args[]) throws Exception{
+		int size;
+		InputStream f=
+				new FileInputStream("FileInputStreamDemo.java");
+		System.out.println("All bytes: "+(size=f.available()));
+		
+		
+	}
+
+}

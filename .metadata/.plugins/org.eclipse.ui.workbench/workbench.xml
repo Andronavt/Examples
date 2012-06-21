@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<workbench progressCount="12" version="2.0">
+<workbench progressCount="15" version="2.0">
 <workbenchAdvisor/>
 <window height="768" maximized="true" width="1024" x="65" y="24">
 <fastViewData fastViewLocation="1024">
@@ -21,6 +21,7 @@
 <coolItem id="group.nav" itemType="typeGroupMarker"/>
 <coolItem id="org.eclipse.ui.workbench.navigate" itemType="typeToolBarContribution" x="184" y="30"/>
 <coolItem id="group.editor" itemType="typeGroupMarker"/>
+<coolItem id="org.eclipse.jdt.ui.ClassFileEditor" itemType="typePlaceholder" x="-1" y="-1"/>
 <coolItem id="org.eclipse.ui.browser.editor" itemType="typePlaceholder" x="-1" y="-1"/>
 <coolItem id="org.eclipse.jdt.ui.CompilationUnitEditor" itemType="typePlaceholder" x="-1" y="-1"/>
 <coolItem id="group.help" itemType="typeGroupMarker"/>
@@ -40,7 +41,6 @@
 <view id="org.eclipse.ui.views.ProblemView" partName="Problems">
 <viewState PRIMARY_SORT_FIELD="org.eclipse.ui.ide.severityAndDescriptionField" categoryGroup="org.eclipse.ui.ide.severity" markerContentGenerator="org.eclipse.ui.ide.problemsGenerator" partName="Problems">
 <expanded>
-<category IMemento.internal.id="Warnings"/>
 <category IMemento.internal.id="Errors"/>
 </expanded>
 <columnWidths org.eclipse.ui.ide.locationField="105" org.eclipse.ui.ide.markerType="283" org.eclipse.ui.ide.pathField="140" org.eclipse.ui.ide.resourceField="105" org.eclipse.ui.ide.severityAndDescriptionField="350"/>
@@ -50,6 +50,9 @@
 <visible IMemento.internal.id="org.eclipse.ui.ide.locationField"/>
 <visible IMemento.internal.id="org.eclipse.ui.ide.markerType"/>
 </viewState>
+</view>
+<view id="org.eclipse.ui.console.ConsoleView" partName="Console">
+<viewState/>
 </view>
 <view id="org.eclipse.jdt.ui.PackageExplorer" partName="Package Explorer">
 <viewState group_libraries="1" layout="2" linkWithEditor="0" rootMode="1" workingSetName="">
@@ -79,9 +82,6 @@
 </xmlDefinedFilters>
 </customFilters>
 </viewState>
-</view>
-<view id="org.eclipse.ui.console.ConsoleView" partName="Console">
-<viewState/>
 </view>
 <view id="org.eclipse.ant.ui.views.AntView" partName="Ant">
 <viewState>
@@ -297,6 +297,27 @@
 </trimLayout>
 </window>
 <mruList>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="FileOutputStreamDemo.java" tooltip="Class FileOutputStream/src/FileOutputStreamDemo.java">
+<persistable path="/Class FileOutputStream/src/FileOutputStreamDemo.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="FileInputStreamDemo.java" tooltip="Class FIleInputStream/src/FileInputStreamDemo.java">
+<persistable path="/Class FIleInputStream/src/FileInputStreamDemo.java"/>
+</file>
+<file factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" id="org.eclipse.jdt.ui.ClassFileEditor" name="FileInputStream.class" tooltip="java.io.FileInputStream">
+<persistable org.eclipse.jdt.ui.ClassFileIdentifier="=Algorithms collections/\/usr\/lib\/jvm\/java-6-openjdk-i386\/jre\/lib\/rt.jar&lt;java.io(FileInputStream.class"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="DirListOnly.java" tooltip="Interface FilenameFilter/src/DirListOnly.java">
+<persistable path="/Interface FilenameFilter/src/DirListOnly.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="OnlyExist.java" tooltip="Interface FilenameFilter/src/OnlyExist.java">
+<persistable path="/Interface FilenameFilter/src/OnlyExist.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="DirList.java" tooltip="C atalog/src/DirList.java">
+<persistable path="/C atalog/src/DirList.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="FileDemo.java" tooltip="Class File/src/FileDemo.java">
+<persistable path="/Class File/src/FileDemo.java"/>
+</file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="TwoObservers.java" tooltip="Example Observer/src/TwoObservers.java">
 <persistable path="/Example Observer/src/TwoObservers.java"/>
 </file>
@@ -320,27 +341,6 @@
 </file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="CalendarDemo.java" tooltip="Class Calendar/src/CalendarDemo.java">
 <persistable path="/Class Calendar/src/CalendarDemo.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="GregorianCalendar.java" tooltip="Class GregirianCalendar/src/GregorianCalendar.java">
-<persistable path="/Class GregirianCalendar/src/GregorianCalendar.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="DateDemo.java" tooltip="Class Date/src/DateDemo.java">
-<persistable path="/Class Date/src/DateDemo.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="BitSetDemo.java" tooltip="Class BitSet/src/BitSetDemo.java">
-<persistable path="/Class BitSet/src/BitSetDemo.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="STDemo.java" tooltip="Class StringTokenzer/src/STDemo.java">
-<persistable path="/Class StringTokenzer/src/STDemo.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Phonebook.java" tooltip="Using methods store() and load()/src/Phonebook.java">
-<persistable path="/Using methods store() and load()/src/Phonebook.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="PropDemoDef.java" tooltip="Class Properties/src/PropDemoDef.java">
-<persistable path="/Class Properties/src/PropDemoDef.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="PropDemo.java" tooltip="Class Properties/src/PropDemo.java">
-<persistable path="/Class Properties/src/PropDemo.java"/>
 </file>
 </mruList>
 </workbench>

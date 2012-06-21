@@ -1,0 +1,8 @@
+
+class FileDemo {
+	static void p(String s){
+		System.out.println(s);
+	}
+
+
+}
