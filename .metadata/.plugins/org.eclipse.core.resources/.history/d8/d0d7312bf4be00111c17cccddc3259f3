@@ -1,0 +1,10 @@
+import java.io.*;
+public class ByteArrayOutputStreamDemo {
+	public static void main(String args[]) throws IOException{
+		ByteArrayOutputStream f=new ByteArrayOutputStream();
+		String s="This should end up in the array";
+		byte buf[]=s.getBytes();
+		f.write(buf);
+	}
+
+}

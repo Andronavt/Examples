@@ -1,0 +1,36 @@
+import java.io.*;
+class WordCount {
+		public static int words=0;
+		public static int lines=0;
+		public static int chars=0;
+		
+		public static vid wc(InputStreamReader isr){
+			throws IOException{
+				int c=0;
+				boolean lastWhite=true;
+				String whiteSpace=" \t\n\r";
+				
+				while((c=isr.read())!=-1){
+					chars++;
+					if(c=='\n'){
+						lines++;
+					}
+					int index=whiteSpace.indexOf(c);
+					if(index==-1){
+						if(lastWhite==true){
+							++words;
+						}
+						lastWhite=false;
+					}
+					else{
+						lastWhite=true;
+					}
+				}
+				if(chars!=0){
+					++lines;
+				}
+			
+		
+		}
+
+}

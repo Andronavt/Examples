@@ -1,0 +1,11 @@
+import java.io.*;
+class CharArrayWriterDemo {
+	public static void main(String args[]) throws IOException{
+		CharArrayWriter f=new CharArrayWriter();
+		String s="This should end up in the array";
+		char buff[]=new char[s.length()];
+		s.getChars(0, s.length(), buf, 0);
+		
+	}
+
+}

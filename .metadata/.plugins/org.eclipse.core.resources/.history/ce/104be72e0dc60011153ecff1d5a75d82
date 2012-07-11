@@ -1,0 +1,31 @@
+import java.io.*;
+class WordCount {
+	public static int words=0;
+	public static int lines=0;
+	public static int chars=0;
+	
+	@SuppressWarnings("static-access")
+	public static void wc(Reader r) throws IOException{
+		StreamTokenizer tok=new StreamTokenizer(r);
+		
+		tok.resetSyntax();
+		tok.wordChars(33, 255);
+		tok.whitespaceChars(0, ' ');
+		tok.eolIsSignificant(true);
+		
+		while(tok.nextToken()!=tok.TT_EOF){
+			switch(tok.ttype){
+			case tok.TT_EOL:
+				lines++;
+				chars++;
+				break;
+			case tok.TT_WORD:
+				words++;
+				default:
+					chars+=tok.sval.length();
+					break;
+			}
+		}
+	}
+
+}

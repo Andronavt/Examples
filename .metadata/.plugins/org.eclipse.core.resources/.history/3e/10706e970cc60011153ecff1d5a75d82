@@ -1,0 +1,11 @@
+import java.io.*;
+class WordCount {
+	public static int words=0;
+	public static int lines=0;
+	public static int chars=0;
+	
+	public static void wc(Reader r) throws IOException{
+		
+	}
+
+}

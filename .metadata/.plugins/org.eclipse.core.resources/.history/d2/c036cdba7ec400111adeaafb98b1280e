@@ -1,0 +1,10 @@
+import java.io.*;
+class CharArrayReaderDemo {
+	public static void main (String args[]) throws IOException{
+		String tmp="abcdefghijklmnopqrstuvwxyz";
+		int length=tmp.length();
+		char c[]=new char[length];
+		
+	}
+
+}

@@ -1,0 +1,7 @@
+import java.io.*;
+class BufferedReaderDemo {
+	public static void main(String args[]) throws IOException{
+		
+	}
+
+}

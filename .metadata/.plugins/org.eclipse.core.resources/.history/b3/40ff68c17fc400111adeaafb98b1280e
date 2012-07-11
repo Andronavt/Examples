@@ -1,0 +1,8 @@
+import java.io.*;
+class CharArrayWriterDemo {
+	public static void main(String args[]) throws IOException{
+		CharArrayWriter f=new CharArrayWriter();
+		String 
+	}
+
+}

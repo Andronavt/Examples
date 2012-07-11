@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<workbench progressCount="15" version="2.0">
+<workbench progressCount="14" version="2.0">
 <workbenchAdvisor/>
 <window height="768" maximized="true" width="1024" x="65" y="24">
 <fastViewData fastViewLocation="1024">
@@ -17,13 +17,13 @@
 <coolItem id="org.eclipse.debug.ui.launchActionSet" itemType="typeToolBarContribution" x="120" y="30"/>
 <coolItem id="org.eclipse.jdt.ui.JavaElementCreationActionSet" itemType="typeToolBarContribution" x="76" y="30"/>
 <coolItem id="org.eclipse.search.searchActionSet" itemType="typeToolBarContribution" x="76" y="30"/>
-<coolItem id="org.eclipse.ui.edit.text.actionSet.presentation" itemType="typeToolBarContribution" x="68" y="30"/>
+<coolItem id="org.eclipse.ui.edit.text.actionSet.presentation" itemType="typeToolBarContribution" x="124" y="30"/>
 <coolItem id="group.nav" itemType="typeGroupMarker"/>
 <coolItem id="org.eclipse.ui.workbench.navigate" itemType="typeToolBarContribution" x="184" y="30"/>
 <coolItem id="group.editor" itemType="typeGroupMarker"/>
 <coolItem id="org.eclipse.jdt.ui.ClassFileEditor" itemType="typePlaceholder" x="-1" y="-1"/>
 <coolItem id="org.eclipse.ui.browser.editor" itemType="typePlaceholder" x="-1" y="-1"/>
-<coolItem id="org.eclipse.jdt.ui.CompilationUnitEditor" itemType="typePlaceholder" x="-1" y="-1"/>
+<coolItem id="org.eclipse.jdt.ui.CompilationUnitEditor" itemType="typeToolBarContribution" x="-1" y="-1"/>
 <coolItem id="group.help" itemType="typeGroupMarker"/>
 <coolItem id="org.eclipse.ui.workbench.help" itemType="typeToolBarContribution" x="-1" y="-1"/>
 </coolbarLayout>
@@ -32,16 +32,28 @@
 <editorArea activeWorkbook="DefaultEditorWorkbook">
 <info part="DefaultEditorWorkbook">
 <folder appearance="1" expanded="2">
-<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+<part id="1"/>
+</presentation>
 </folder>
 </info>
 </editorArea>
+<editor activePart="true" focus="true" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="SerializarionDemo.java" partName="SerializarionDemo.java" path="/home/andrew/Examples/Example serialization/src/SerializarionDemo.java" title="SerializarionDemo.java" tooltip="Example serialization/src/SerializarionDemo.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Example serialization/src/SerializarionDemo.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="791" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="MyClass.java" partName="MyClass.java" path="/home/andrew/Examples/Example serialization/src/MyClass.java" title="MyClass.java" tooltip="Example serialization/src/MyClass.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Example serialization/src/MyClass.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="12" selectionOffset="56" selectionTopPixel="0"/>
+</editor>
 </editors>
 <views>
 <view id="org.eclipse.ui.views.ProblemView" partName="Problems">
 <viewState PRIMARY_SORT_FIELD="org.eclipse.ui.ide.severityAndDescriptionField" categoryGroup="org.eclipse.ui.ide.severity" markerContentGenerator="org.eclipse.ui.ide.problemsGenerator" partName="Problems">
 <expanded>
 <category IMemento.internal.id="Errors"/>
+<category IMemento.internal.id="Warnings"/>
 </expanded>
 <columnWidths org.eclipse.ui.ide.locationField="105" org.eclipse.ui.ide.markerType="283" org.eclipse.ui.ide.pathField="140" org.eclipse.ui.ide.resourceField="105" org.eclipse.ui.ide.severityAndDescriptionField="350"/>
 <visible IMemento.internal.id="org.eclipse.ui.ide.severityAndDescriptionField"/>
@@ -50,9 +62,6 @@
 <visible IMemento.internal.id="org.eclipse.ui.ide.locationField"/>
 <visible IMemento.internal.id="org.eclipse.ui.ide.markerType"/>
 </viewState>
-</view>
-<view id="org.eclipse.ui.console.ConsoleView" partName="Console">
-<viewState/>
 </view>
 <view id="org.eclipse.jdt.ui.PackageExplorer" partName="Package Explorer">
 <viewState group_libraries="1" layout="2" linkWithEditor="0" rootMode="1" workingSetName="">
@@ -83,6 +92,9 @@
 </customFilters>
 </viewState>
 </view>
+<view id="org.eclipse.ui.console.ConsoleView" partName="Console">
+<viewState/>
+</view>
 <view id="org.eclipse.ant.ui.views.AntView" partName="Ant">
 <viewState>
 <filterInternalTargets value="false"/>
@@ -98,7 +110,7 @@
 <viewState/>
 </view>
 </views>
-<perspectives activePart="org.eclipse.jdt.ui.PackageExplorer" activePerspective="org.eclipse.jdt.ui.JavaPerspective">
+<perspectives activePart="org.eclipse.jdt.ui.CompilationUnitEditor" activePerspective="org.eclipse.jdt.ui.JavaPerspective">
 <perspective editorAreaTrimState="2" editorAreaVisible="1" fixed="0" version="0.016">
 <descriptor class="org.eclipse.ui.internal.ide.application.ResourcePerspective" id="org.eclipse.ui.resourcePerspective" label="Resource"/>
 <alwaysOnActionSet id="org.eclipse.search.searchActionSet"/>
@@ -160,7 +172,7 @@
 </mainWindow>
 </layout>
 </perspective>
-<perspective editorAreaTrimState="2" editorAreaVisible="1" fixed="0" version="0.016">
+<perspective editorAreaTrimState="1" editorAreaVisible="1" fixed="0" version="0.016">
 <descriptor class="org.eclipse.jdt.internal.ui.JavaPerspectiveFactory" id="org.eclipse.jdt.ui.JavaPerspective" label="Java"/>
 <alwaysOnActionSet id="org.eclipse.search.searchActionSet"/>
 <alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.annotationNavigation"/>
@@ -209,12 +221,20 @@
 <perspective_action id="org.eclipse.debug.ui.DebugPerspective"/>
 <hide_toolbar_item_id id="org.eclipse.jdt.ui.actions.OpenProjectWizard"/>
 <hide_toolbar_item_id id="org.eclipse.ui.edit.text.toggleShowSelectedElementOnly"/>
-<view id="org.eclipse.jdt.ui.PackageExplorer"/>
-<view id="org.eclipse.ui.views.ProblemView"/>
-<view id="org.eclipse.jdt.ui.JavadocView"/>
-<view id="org.eclipse.jdt.ui.SourceView"/>
-<view id="org.eclipse.ui.console.ConsoleView"/>
 <fastViewBars>
+<fastViewBar fastViewLocation="1024" id="bottom" orientation="256" selectedTabId="org.eclipse.ui.console.ConsoleView" style="1">
+<fastViews>
+<view id="org.eclipse.ui.views.ProblemView" ratio="0.3"/>
+<view id="org.eclipse.jdt.ui.JavadocView" ratio="0.3"/>
+<view id="org.eclipse.jdt.ui.SourceView" ratio="0.3"/>
+<view id="org.eclipse.ui.console.ConsoleView" ratio="0.29955456"/>
+</fastViews>
+</fastViewBar>
+<fastViewBar fastViewLocation="16384" id="left" orientation="512" selectedTabId="org.eclipse.jdt.ui.PackageExplorer" style="1">
+<fastViews>
+<view id="org.eclipse.jdt.ui.PackageExplorer" ratio="0.3"/>
+</fastViews>
+</fastViewBar>
 <fastViewBar fastViewLocation="131072" id="right" orientation="512" selectedTabId="org.eclipse.ui.views.ContentOutline" style="0">
 <fastViews>
 <view id="org.eclipse.ui.views.ContentOutline" ratio="0.3"/>
@@ -224,15 +244,13 @@
 <layout>
 <mainWindow>
 <info folder="true" part="left">
-<folder activePageID="org.eclipse.jdt.ui.PackageExplorer" appearance="2" expanded="2">
-<page content="org.eclipse.jdt.ui.PackageExplorer" label="Package Explorer"/>
+<folder appearance="2" expanded="0">
+<page content="org.eclipse.jdt.ui.PackageExplorer" label="LabelNotFound"/>
 <page content="org.eclipse.jdt.ui.TypeHierarchy" label="LabelNotFound"/>
 <page content="org.eclipse.ui.views.ResourceNavigator" label="LabelNotFound"/>
 <page content="org.eclipse.ui.navigator.ProjectExplorer" label="LabelNotFound"/>
 <page content="org.eclipse.jdt.junit.ResultView" label="LabelNotFound"/>
-<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
-<part id="0"/>
-</presentation>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
 </folder>
 </info>
 <info folder="true" part="stickyFolderRight" ratio="0.7497929" ratioLeft="905" ratioRight="302" relationship="2" relative="left">
@@ -244,20 +262,15 @@
 </info>
 <info part="org.eclipse.ui.editorss" ratio="0.1931624" ratioLeft="226" ratioRight="944" relationship="2" relative="left"/>
 <info folder="true" part="bottom" ratio="0.7494457" ratioLeft="676" ratioRight="226" relationship="4" relative="org.eclipse.ui.editorss">
-<folder activePageID="org.eclipse.ui.console.ConsoleView" appearance="2" expanded="2">
-<page content="org.eclipse.ui.views.ProblemView" label="Problems"/>
-<page content="org.eclipse.jdt.ui.JavadocView" label="Javadoc"/>
-<page content="org.eclipse.jdt.ui.SourceView" label="Declaration"/>
-<page content="org.eclipse.ui.console.ConsoleView" label="Console"/>
+<folder appearance="2" expanded="0">
+<page content="org.eclipse.ui.views.ProblemView" label="LabelNotFound"/>
+<page content="org.eclipse.jdt.ui.JavadocView" label="LabelNotFound"/>
+<page content="org.eclipse.jdt.ui.SourceView" label="LabelNotFound"/>
+<page content="org.eclipse.ui.console.ConsoleView" label="LabelNotFound"/>
 <page content="org.eclipse.search.ui.views.SearchView" label="LabelNotFound"/>
 <page content="org.eclipse.ui.views.BookmarkView" label="LabelNotFound"/>
 <page content="org.eclipse.ui.views.ProgressView" label="LabelNotFound"/>
-<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
-<part id="0"/>
-<part id="1"/>
-<part id="2"/>
-<part id="3"/>
-</presentation>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
 </folder>
 </info>
 <info folder="true" part="right" ratio="0.7494481" ratioLeft="679" ratioRight="227" relationship="2" relative="org.eclipse.ui.editorss">
@@ -273,7 +286,133 @@
 </perspective>
 </perspectives>
 <workingSets/>
-<navigationHistory/>
+<navigationHistory>
+<editors>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Class StreamTokenizer/src/WordCount.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Example serialization/src/SerializarionDemo.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Example serialization/src/MyClass.java"/>
+</editors>
+<item historyLabel="WordCount.java" index="0">
+<position info="not_deleted" x="17" y="0"/>
+</item>
+<item historyLabel="WordCount.java" index="0">
+<position info="not_deleted" x="1202" y="0"/>
+</item>
+<item historyLabel="WordCount.java" index="0">
+<position info="not_deleted" x="575" y="0"/>
+</item>
+<item historyLabel="WordCount.java" index="0">
+<position info="not_deleted" x="269" y="0"/>
+</item>
+<item historyLabel="WordCount.java" index="0">
+<position info="not_deleted" x="300" y="0"/>
+</item>
+<item historyLabel="WordCount.java" index="0">
+<position info="not_deleted" x="575" y="0"/>
+</item>
+<item historyLabel="WordCount.java" index="0">
+<position info="not_deleted" x="571" y="0"/>
+</item>
+<item historyLabel="WordCount.java" index="0">
+<position info="not_deleted" x="420" y="6"/>
+</item>
+<item historyLabel="WordCount.java" index="0">
+<position info="not_deleted" x="419" y="7"/>
+</item>
+<item historyLabel="WordCount.java" index="0">
+<position info="not_deleted" x="488" y="8"/>
+</item>
+<item historyLabel="WordCount.java" index="0">
+<position info="not_deleted" x="419" y="7"/>
+</item>
+<item historyLabel="WordCount.java" index="0">
+<position info="not_deleted" x="1199" y="0"/>
+</item>
+<item historyLabel="WordCount.java" index="0">
+<position info="not_deleted" x="740" y="0"/>
+</item>
+<item historyLabel="WordCount.java" index="0">
+<position info="not_deleted" x="770" y="0"/>
+</item>
+<item historyLabel="WordCount.java" index="0">
+<position info="not_deleted" x="1195" y="0"/>
+</item>
+<item historyLabel="WordCount.java" index="0">
+<position info="not_deleted" x="1049" y="0"/>
+</item>
+<item historyLabel="WordCount.java" index="0">
+<position info="not_deleted" x="1047" y="0"/>
+</item>
+<item historyLabel="WordCount.java" index="0">
+<position info="not_deleted" x="1127" y="0"/>
+</item>
+<item historyLabel="WordCount.java" index="0">
+<position info="not_deleted" x="1119" y="0"/>
+</item>
+<item historyLabel="WordCount.java" index="0">
+<position info="not_deleted" x="1121" y="0"/>
+</item>
+<item historyLabel="WordCount.java" index="0">
+<position info="not_deleted" x="1195" y="0"/>
+</item>
+<item historyLabel="WordCount.java" index="0">
+<position info="not_deleted" x="1206" y="0"/>
+</item>
+<item historyLabel="WordCount.java" index="0">
+<position info="not_deleted" x="419" y="7"/>
+</item>
+<item historyLabel="WordCount.java" index="0">
+<position info="not_deleted" x="392" y="0"/>
+</item>
+<item historyLabel="WordCount.java" index="0">
+<position info="not_deleted" x="334" y="9"/>
+</item>
+<item historyLabel="SerializarionDemo.java" index="1">
+<position info="not_deleted" x="17" y="0"/>
+</item>
+<item historyLabel="SerializarionDemo.java" index="1">
+<position info="not_deleted" x="140" y="0"/>
+</item>
+<item historyLabel="SerializarionDemo.java" index="1">
+<position info="not_deleted" x="358" y="0"/>
+</item>
+<item historyLabel="SerializarionDemo.java" index="1">
+<position info="not_deleted" x="184" y="0"/>
+</item>
+<item historyLabel="SerializarionDemo.java" index="1">
+<position info="not_deleted" x="358" y="0"/>
+</item>
+<item historyLabel="SerializarionDemo.java" index="1">
+<position info="not_deleted" x="321" y="0"/>
+</item>
+<item historyLabel="SerializarionDemo.java" index="1">
+<position info="not_deleted" x="794" y="0"/>
+</item>
+<item historyLabel="SerializarionDemo.java" index="1">
+<position info="not_deleted" x="692" y="0"/>
+</item>
+<item historyLabel="SerializarionDemo.java" index="1">
+<position info="not_deleted" x="791" y="0"/>
+</item>
+<item historyLabel="SerializarionDemo.java" index="1">
+<position info="not_deleted" x="791" y="0"/>
+</item>
+<item historyLabel="MyClass.java" index="2">
+<position info="not_deleted" x="30" y="0"/>
+</item>
+<item historyLabel="MyClass.java" index="2">
+<position info="not_deleted" x="244" y="0"/>
+</item>
+<item historyLabel="MyClass.java" index="2">
+<position info="not_deleted" x="241" y="0"/>
+</item>
+<item historyLabel="MyClass.java" index="2">
+<position info="not_deleted" x="56" y="12"/>
+</item>
+<item active="true" historyLabel="SerializarionDemo.java" index="1">
+<position info="not_deleted" x="791" y="0"/>
+</item>
+</navigationHistory>
 <input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
 </page>
 <workbenchWindowAdvisor/>
@@ -297,50 +436,50 @@
 </trimLayout>
 </window>
 <mruList>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="FileOutputStreamDemo.java" tooltip="Class FileOutputStream/src/FileOutputStreamDemo.java">
-<persistable path="/Class FileOutputStream/src/FileOutputStreamDemo.java"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="MyClass.java" tooltip="Example serialization/src/MyClass.java">
+<persistable path="/Example serialization/src/MyClass.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="SerializarionDemo.java" tooltip="Example serialization/src/SerializarionDemo.java">
+<persistable path="/Example serialization/src/SerializarionDemo.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="WordCount.java" tooltip="Class StreamTokenizer/src/WordCount.java">
+<persistable path="/Class StreamTokenizer/src/WordCount.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="WordCount.java" tooltip="Using  output^input stream/src/WordCount.java">
+<persistable path="/Using  output^input stream/src/WordCount.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="PushbackReaderDemo.java" tooltip="Class UshbackReader/src/PushbackReaderDemo.java">
+<persistable path="/Class UshbackReader/src/PushbackReaderDemo.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="BufferedReaderDemo.java" tooltip="Class BufferdReader/src/BufferedReaderDemo.java">
+<persistable path="/Class BufferdReader/src/BufferedReaderDemo.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="CharArrayWriterDemo.java" tooltip="Class CharArrayWriter/src/CharArrayWriterDemo.java">
+<persistable path="/Class CharArrayWriter/src/CharArrayWriterDemo.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="CharArrayReaderDemo.java" tooltip="Class CharArrayReader/src/CharArrayReaderDemo.java">
+<persistable path="/Class CharArrayReader/src/CharArrayReaderDemo.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="FileWriter.java" tooltip="Class FileWriter/src/FileWriter.java">
+<persistable path="/Class FileWriter/src/FileWriter.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="FileReaderDemo.java" tooltip="Class FileReader/src/FileReaderDemo.java">
+<persistable path="/Class FileReader/src/FileReaderDemo.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="SequenceInputStreamDemo.java" tooltip="Class SequenceInputStream/src/SequenceInputStreamDemo.java">
+<persistable path="/Class SequenceInputStream/src/SequenceInputStreamDemo.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="InputStreamEnumerator.java" tooltip="Class SequenceInputStream/src/InputStreamEnumerator.java">
+<persistable path="/Class SequenceInputStream/src/InputStreamEnumerator.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="PushbackStreamDemo.java" tooltip="Class PushbackStream/src/PushbackStreamDemo.java">
+<persistable path="/Class PushbackStream/src/PushbackStreamDemo.java"/>
 </file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="FileInputStreamDemo.java" tooltip="Class FIleInputStream/src/FileInputStreamDemo.java">
 <persistable path="/Class FIleInputStream/src/FileInputStreamDemo.java"/>
 </file>
-<file factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" id="org.eclipse.jdt.ui.ClassFileEditor" name="FileInputStream.class" tooltip="java.io.FileInputStream">
-<persistable org.eclipse.jdt.ui.ClassFileIdentifier="=Algorithms collections/\/usr\/lib\/jvm\/java-6-openjdk-i386\/jre\/lib\/rt.jar&lt;java.io(FileInputStream.class"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="DirListOnly.java" tooltip="Interface FilenameFilter/src/DirListOnly.java">
-<persistable path="/Interface FilenameFilter/src/DirListOnly.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="OnlyExist.java" tooltip="Interface FilenameFilter/src/OnlyExist.java">
-<persistable path="/Interface FilenameFilter/src/OnlyExist.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="DirList.java" tooltip="C atalog/src/DirList.java">
-<persistable path="/C atalog/src/DirList.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="FileDemo.java" tooltip="Class File/src/FileDemo.java">
-<persistable path="/Class File/src/FileDemo.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="TwoObservers.java" tooltip="Example Observer/src/TwoObservers.java">
-<persistable path="/Example Observer/src/TwoObservers.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Watcher2.java" tooltip="Example Observer/src/Watcher2.java">
-<persistable path="/Example Observer/src/Watcher2.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Watcher1.java" tooltip="Example Observer/src/Watcher1.java">
-<persistable path="/Example Observer/src/Watcher1.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ObsereverDemo.java" tooltip="Example Observer/src/ObsereverDemo.java">
-<persistable path="/Example Observer/src/ObsereverDemo.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="BeingWatcher.java" tooltip="Example Observer/src/BeingWatcher.java">
-<persistable path="/Example Observer/src/BeingWatcher.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Watcher.java" tooltip="Example Observer/src/Watcher.java">
-<persistable path="/Example Observer/src/Watcher.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="RandDemo.java" tooltip="Class Random/src/RandDemo.java">
-<persistable path="/Class Random/src/RandDemo.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="CalendarDemo.java" tooltip="Class Calendar/src/CalendarDemo.java">
-<persistable path="/Class Calendar/src/CalendarDemo.java"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="BufferdInputStreamDemo.java" tooltip="Class BufferdInputStream/src/BufferdInputStreamDemo.java">
+<persistable path="/Class BufferdInputStream/src/BufferdInputStreamDemo.java"/>
 </file>
 </mruList>
 </workbench>

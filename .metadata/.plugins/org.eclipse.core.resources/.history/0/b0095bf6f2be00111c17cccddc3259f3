@@ -1,0 +1,8 @@
+import java.io.*;
+public class ByteArrayOutputStreamDemo {
+	public static void main(String args[]) throws IOException{
+		ByteArraOutputStream f=new ByteArrayOutputStream();
+		
+	}
+
+}
